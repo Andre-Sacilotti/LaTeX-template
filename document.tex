@@ -1,0 +1,75 @@
+\documentclass[11pt]{article}
+\usepackage{lipsum}
+\usepackage{paper_style}
+
+
+
+
+% \singlespacing
+\onehalfspacing
+
+\setlength{\droptitle}{-5em}
+
+\title{Super Cool Title: An study about cool titles}
+
+
+\author{Author Name\\
+	\href{mailto:author@email.com}{\texttt{author@email.com}}
+	\and Author Author\\
+	\href{mailto:author@email.com}{\texttt{author@email.com}}
+	\and 
+}
+
+
+\date{29 July, 2021}
+
+\begin{document}
+	
+	{\setstretch{.8}
+		\maketitle
+		
+		\begin{abstract}
+			
+			\lipsum[1]
+			
+			
+			\noindent
+			\textit{\textbf{Keywords: }
+				keyword1; ...; keyword\_n} \\ 
+			
+		\end{abstract}
+	}
+	
+	
+	\section{Introduction}
+	
+	
+	\lipsum[2] 
+	Here a sample citation, look at this beautiful citation \citet{DBLP:journals/corr/abs-2002-00819}, ee? Beauty citation
+	
+	
+	\section{Methodology}
+	
+	
+	\lipsum[3]
+	
+	
+	\section{Results}
+	
+	
+	\lipsum[4] 
+	
+
+	\section{Conclusion}
+
+	
+	\lipsum[5]
+	
+	\medskip
+	
+	\bibliography{references.bib} 
+	
+	\newpage
+	
+	
+\end{document}
